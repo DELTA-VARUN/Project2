@@ -29,3 +29,8 @@ main is the default vranch which is created with everygit repo
 
 
 NOTE: when we run the push command, the pull is implicitly run 1st. And only then the push is run;
+
+JS:
+let: to create a local variable(block scope)
+cont: to create a local read only variable
+var: to create a global variable(lifelong , till the end of the app)
