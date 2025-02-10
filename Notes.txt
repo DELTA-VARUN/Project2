@@ -1,0 +1,31 @@
+Generate git token (Try to checkmark the repo)
+download git 
+git clone https://github.com/neelmyna/gofs_nie
+
+create and maintain two seperate repo for one that you are doing and other one for instructor's
+
+
+
+C:\Users\User>git clone https://github.com/neelmyna/gofs_nie
+then
+ https://my personal github token@myRepoLInk
+
+cd gofs_nie
+code .
+
+
+//Commands to update our repo
+1. git add .
+from the current , mark all the files that need to be updated(keeping the folder structure intact)
+here git creates a list of files to be updated
+
+2. git commit -m "Commit message"
+
+3. git push origin main
+push is to update remote repo from the local
+
+
+main is the default vranch which is created with everygit repo
+
+
+NOTE: when we run the push command, the pull is implicitly run 1st. And only then the push is run;
